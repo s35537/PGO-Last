@@ -1,2 +1,3 @@
-public class Displayable {
+public interface Displayable {
+    String getDisplayText();
 }

@@ -1,2 +1,5 @@
-public class ReservationStatus {
+public enum ReservationStatus {
+    ACTIVE,
+    RETURNED,
+    CANCELLED
 }

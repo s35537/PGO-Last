@@ -1,2 +1,3 @@
-public class DiscountPolicy {
+public interface DiscountPolicy {
+    double applyDiscount(Student student, double price);
 }
